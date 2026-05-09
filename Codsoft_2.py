@@ -72,7 +72,7 @@ label1 = tk.Label(
     frame,
     text="First Number",
     font=("Segoe UI", 12,"bold"),
-    fg="#ffc100",
+    fg="#ffc100", #dark yellow
     bg="#0d0c1d"
 )
 
@@ -96,7 +96,7 @@ label2 = tk.Label(
     text="Second Number",
     font=("Segoe UI", 12,"bold"),
     fg="#ffc100",
-    bg="#0d0c1d"
+    bg="#0d0c1d" #black colour
 )
 
 label2.pack(pady=(20,5))
